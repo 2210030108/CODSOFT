@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image.png">
+    <link rel="stylesheet" href="./cal.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- Main calculator body -->
+    <div class="main">
+        <div class="container">
+            <h1 class="result" id="result">0</h1>
+        </div>
+        <!-- Buttons container -->
+        <div class="btcontainer" id="buttonContainer">
+            <button class="bt" onclick="appendToResult('1')">1</button>
+            <button class="bt" onclick="appendToResult('2')">2</button>
+            <button class="bt" onclick="appendToResult('3')">3</button>
+            <button class="bt operator" onclick="appendToResult('+')">+</button>
+            <button class="bt" onclick="appendToResult('4')">4</button>
+            <button class="bt" onclick="appendToResult('5')">5</button>
+            <button class="bt" onclick="appendToResult('6')">6</button>
+            <button class="bt operator" onclick="appendToResult('-')">-</button>
+            <button class="bt" onclick="appendToResult('7')">7</button>
+            <button class="bt" onclick="appendToResult('8')">8</button>
+            <button class="bt" onclick="appendToResult('9')">9</button>
+            <button class="bt operator" onclick="appendToResult('*')">x</button>
+            <button class="bt clear" onclick="clearResult()">C</button>
+            <button class="bt" onclick="appendToResult('0')">0</button>
+            <button class="bt operator" onclick="appendToResult('/')">/</button>
+            <button class="bt equals" onclick="calculate()">=</button>
+        </div>
+    </div>
+    <script src="./cal.js"></script>
+</body>
+</html>

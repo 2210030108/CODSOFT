@@ -1,0 +1,81 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    background-color: #0a0a0a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px black;
+}
+
+.container {
+    background-color: #6e6e6e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: right;
+    font-size: 2rem;
+}
+
+.btcontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 400px; 
+}
+
+.bt {
+    background-color: #d3d2d2;
+    border: 1px solid #ccc;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.bt:hover {
+    background-color: #fff;
+}
+
+
+.bt.operator {
+    background-color: #f59436;
+    color: #fff;
+}
+
+
+.bt.clear {
+    background-color: #e64c4c;
+    color: #fff;
+}
+
+
+.bt.equals {
+    background-color: #4caf50;
+    color: #fff;
+}
