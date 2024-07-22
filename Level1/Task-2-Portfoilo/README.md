@@ -56,5 +56,3 @@ git clone https://github.com/2210030108/CODSOFT.git
 cd your-repository
 Usage
 Feel free to explore each section of the website to learn more about my skills, projects, and background. If you have any feedback or inquiries, don't hesitate to reach out through the contact page!
-
-Licens
